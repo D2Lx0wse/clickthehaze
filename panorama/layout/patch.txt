@@ -1,0 +1,15 @@
+insert in styles tag
+
+<include src="s2r://panorama/styles/hazeclicker.vcss_c" />
+
+insert after styles tag
+
+    <scripts>
+		<include src="s2r://panorama/scripts/hazegame.vjs_c" />
+    </scripts>
+
+insert after quit button tag
+
+                        <Label text="haze clicked 0 times" id="hazecounter"/>
+						<Button id="hazebutton" onactivate="hazeclicked(); CitadelPlayUISound( EMainMenuActivate )" class="hazeclick">
+						</Button>

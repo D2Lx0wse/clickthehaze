@@ -1,0 +1,10 @@
+.hazeclick{
+    background-image: url("s2r://panorama/images/haze.vtex");
+    width: 150px;
+    height: 150px;
+    opacity: 1;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: left;
+    margin-bottom: 0px;
+}
